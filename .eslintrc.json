@@ -6,6 +6,9 @@
     "next/core-web-vitals",
     "plugin:prettier/recommended"
   ],
+  "settings": {
+    "import/ignore": ["contentLayerAdapter.ts"]
+  },
   "rules": {
     "prettier/prettier": "error",
     "@typescript-eslint/interface-name-prefix": "off",
